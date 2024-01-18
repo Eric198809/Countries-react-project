@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(247, 245, 245);
+  font-family: "font-1", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}/*# sourceMappingURL=setting.css.map */
