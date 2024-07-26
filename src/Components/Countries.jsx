@@ -39,7 +39,7 @@ const Countries = () => {
           placeholder="Recherchez un pays"
           onChange={(e) => setSearch(e.target.value)}
         />
-        <img src={refresh} alt="refresh" onClick={removeSearch} />
+        <img className="remove-search" src={refresh} alt="refresh" onClick={removeSearch} />
       </div>
       <ul className="radio-container">
         <input
