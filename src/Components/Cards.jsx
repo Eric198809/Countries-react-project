@@ -9,8 +9,8 @@ const Cards = ({ country }) => {
       />
       <div className="infos">
         <h2>{country.translations.fra.common}</h2>
-        <p>{country.capital}</p>
-        <p>Pop. {country.population.toLocaleString()}</p>
+        <p> Cap: {country.capital}</p>
+        <p>Pop: {country.population.toLocaleString()}</p>
       </div>
     </div>
   );
