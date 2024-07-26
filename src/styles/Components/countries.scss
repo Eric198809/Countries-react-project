@@ -33,6 +33,15 @@
   border: solid 3px #002654;
 }
 
+.continent-container{
+  display: flex;
+ justify-content: space-between;
+  text-align: center;
+  margin: 20px 0px;
+  width: 70%;
+  
+ }
+
 .continents-name{
   color: aliceblue;
   
@@ -58,6 +67,7 @@ label{
     place-items: center;
     text-align: center;
     margin: 20px 0px;
+    width: 100%;
    }
   }
 
