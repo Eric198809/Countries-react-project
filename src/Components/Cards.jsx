@@ -1,4 +1,4 @@
-import "../styles/Components/cards.css";
+import "../styles/Components/cards.scss";
 
 const Cards = ({ country }) => {
   return (

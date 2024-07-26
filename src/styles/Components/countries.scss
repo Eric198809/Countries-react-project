@@ -1,0 +1,64 @@
+.countriesList {
+  width: 100%;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+  
+  }
+
+.input-search-container{
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.input-search{
+  width: 20%;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;  
+  border: solid 3px #002654; 
+}
+
+.radio-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #002654;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  border: solid 3px #002654;
+}
+
+.continents-name{
+  color: aliceblue;
+  
+}
+
+label{
+
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .input-search{
+    width: 80%;
+    height: 60px;
+   
+  }
+
+  .radio-container{
+   flex-direction: column;
+
+   .continent-container{
+    display: flex;
+    place-items: center;
+    text-align: center;
+    margin: 20px 0px;
+   }
+  }
+
+}

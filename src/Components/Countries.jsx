@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Cards from "./Cards";
 import refresh from "../assets/refresh.svg";
-import "../styles/Components/countries.css";
+import "../styles/Components/countries.scss";
 
 const Countries = () => {
   const [data, setData] = useState([]);
@@ -49,6 +49,7 @@ const Countries = () => {
           defaultValue={rangeValue}
           onChange={(e) => setRangeValue(e.target.value)}
         />
+        <ul className="continent-container">
         {radios.map((continent, index) => (
           <li className="continents-name" key={index}>
             <input
@@ -61,6 +62,7 @@ const Countries = () => {
             <label htmlFor={continent}>{continent}</label>
           </li>
         ))}
+        </ul>
         ,
       </ul>
 
