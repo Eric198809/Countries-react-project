@@ -1,10 +1,10 @@
 .countriesList {
-display: flex;
- flex-wrap: wrap;
- justify-content: center;
- margin: auto;
-
-}
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: auto;
+    
+    }
 
 .input-search-container{
     display: flex;
