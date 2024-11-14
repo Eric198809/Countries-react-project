@@ -1,78 +1,77 @@
 .countriesList {
   width: 100%;
   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin: auto;
-  
-  }
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
 
-.input-search-container{
+.input-search-container {
   display: flex;
   justify-content: center;
   padding: 10px 10px;
-  margin: 10px 10px;
+  margin-top: 10px;
 }
 
-.input-search{
-  width: 20%;
+.input-search {
+  width: 30%;
   text-align: center;
   padding: 10px 10px;
-  margin: 10px 10px;
-  border-radius: 10px;  
-  border: solid 3px #002654; 
+  margin-bottom: 10px 10px;
+  border: solid 3px #002654;
+  border-radius: 30px;
+  margin: 10px;
 }
 
-.remove-search{
+.remove-search {
   cursor: pointer;
 }
 
-.radio-container{
+.radio-container {
   display: flex;
   justify-content: space-between;
-  background-color: #002654;
   padding: 10px 10px;
   margin: 10px 10px;
   border-radius: 10px;
-  border: solid 3px #002654;
+  color: #002654;
+
+  label {
+    color: #ffffff;
+    padding: 0px 10px;
+  }
+  .continents-name {
+    background-color: #002654;
+    padding: 10px;
+    border-radius: 30px;
+  }
 }
 
-.continent-container{
+.continent-container {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
   text-align: center;
   margin: 20px 0px;
   width: 70%;
-  
- }
-
-.continents-name{
-  color: aliceblue;
-  
-}
-
-label{
-
-  padding: 0px 10px;
 }
 
 @media screen and (max-width: 800px) {
-  .input-search{
+  .input-search {
     width: 80%;
     height: 60px;
-   
   }
 
-  .radio-container{
-   flex-direction: column;
+  .radio-container {
+    flex-direction: column;
 
-   .continent-container{
-    display: flex;
-    place-items: center;
-    text-align: center;
-    margin: 20px 0px;
-    width: 100%;
-   }
+    .continent-container {
+      display: flex;
+      flex-wrap: wrap;
+     justify-content: space-evenly;
+      margin: 20px 0px;
+      width: 100%;
+      gap: 15px;
+    }
   }
-
 }
+
+
